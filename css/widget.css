@@ -1,0 +1,98 @@
+body {
+	background-color: lightseagreen;
+	margin: 10px;
+	padding: 10px;
+}
+
+h1 {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 20px;
+}
+
+textarea {
+    width: 94%;
+    min-height: 150px;
+    font-size: 18px;
+    display: block;
+    padding: 5px;
+    line-height: 25px;
+    border-radius: 3px;
+}
+
+#target {
+    min-height: 300px;
+    line-height: 30px;
+}
+
+button {
+	margin: 10px 10px 10px 0;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    font-size: 18px;
+}
+
+button:hover {
+	background-color: #FAFAD2;
+	outline: 0px;
+}
+
+.test:after {
+    content: 'test';
+}
+
+#results {
+	font-size: 18px;
+}
+
+#results div {
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    background-color: #FFFFFF;
+    width: 95%;
+}
+
+#results div:last-child {
+    border-bottom: 1px solid black;
+}
+
+#results div span {
+	display: inline-block;
+	padding: 2px 5px;
+}
+
+#results div span:nth-child(odd) {
+	display: inline-block;
+	width: 200px;
+}
+
+span:nth-child(odd) {
+	background-color: #FFEBCD;
+	border-right: 1px solid black;
+}
+
+.protocol span:nth-child(odd),
+.domain span:nth-child(odd),
+.port span:nth-child(odd),
+.path span:nth-child(odd) {
+	background-color: #F5F5DC;
+}
+
+#testLinks {
+    margin-bottom: 5px;
+    width: 95%;
+    color: black;
+}
+
+#testLinks-button {
+    background: white;
+    border: 0;
+}
+
+#testLinks-button span.ui-selectmenu-text {
+    padding: 0 0 0 2px;
+    color: black;
+    border: 1px solid black;
+    border-radius: 3px;
+    outline: none;
+}
